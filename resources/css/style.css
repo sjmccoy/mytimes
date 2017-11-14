@@ -1,18 +1,63 @@
-#header {
+.header {
 	font-family: Verdana;
 	font-size: 14px;
 	font-weight: bold;
 	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	border-bottom: 1px solid black;
+	padding: 10px;
 }
 
-#header p {
+.header p {
 	color: MediumAquamarine;
 }
 
 .logo {
-	
+	display: flex;
+	align-items: center;
+}
+
+.logo p {
+	padding: 10px;
 }
 
 .navigation {
-	
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding-right: 25px;	
+}
+
+.navigation ul li {
+	display: inline-block;
+}
+
+.navigation ul li a {
+	padding: 10px;
+	color: black;
+}
+
+.container {
+	display: flex;
+	border: 2px solid black;
+}
+
+.column.large {
+	display: flex;
+	width: 630px;
+	border: 2px solid black;
+}
+
+.column.medium {
+	display: flex;
+	width: 300px;
+	border: 2px solid black;
+}
+
+.column.small {
+	display: flex;
+	width: 240px;
+	border: 2px solid black;
 }
