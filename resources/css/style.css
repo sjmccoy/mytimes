@@ -16,6 +16,8 @@
 .logo {
 	display: flex;
 	align-items: center;
+	border: 1px solid blue;
+	width: 75%;
 }
 
 .logo p {
@@ -27,7 +29,8 @@
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	padding-right: 25px;	
+	padding-right: 25px;
+	border: 1px solid blue;	
 }
 
 .navigation ul li {
@@ -42,22 +45,31 @@
 .container {
 	display: flex;
 	border: 2px solid black;
+	justify-content: space-around;
 }
 
 .column.large {
 	display: flex;
 	width: 630px;
 	border: 2px solid black;
+	flex-direction: column;
 }
 
 .column.medium {
 	display: flex;
 	width: 300px;
 	border: 2px solid black;
+	flex-direction: column;
 }
 
 .column.small {
 	display: flex;
 	width: 240px;
 	border: 2px solid black;
+	flex-direction: column;
+}
+
+.article {
+	display: block;
+	border: 2px solid blue;
 }
