@@ -74,6 +74,24 @@
 	display: flex;
 }
 
+#image3 {
+	background-image: url("../images/img-story-3.png");
+	min-height: 300px;
+	display: flex;
+}
+
+#image4 {
+	background-image: url("../images/img-story-1.png");
+	min-height: 300px;
+	display: flex;
+}
+
+#image5 {
+	background-image: url("../images/img-news-bite.png");
+	min-height: 300px;
+	display: flex;
+}
+
 /*MAIN BODY CONTAINERS*/
 .container {
 	display: flex;
