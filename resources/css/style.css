@@ -1,3 +1,4 @@
+/*HEADER */
 .header {
 	font-family: Verdana;
 	font-size: 14px;
@@ -12,6 +13,7 @@
 .header p {
 	color: MediumAquamarine;
 }
+/*LOGO*/
 
 .logo {
 	display: flex;
@@ -24,6 +26,7 @@
 	padding: 10px;
 }
 
+/*NAVIGATION*/
 .navigation {
 	display: flex;
 	flex-wrap: wrap;
@@ -42,6 +45,36 @@
 	color: black;
 }
 
+/*CONTENT*/
+.article {
+	display: block;
+	border: 2px solid blue;
+	font-family: Georgia;
+	font-size: 17px;
+	color: black;
+}
+
+.imagetext {
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+	display: flex;
+}
+
+#mainimage {
+	background-image: url("../images/img-story-main.png");
+	min-height: 300px;
+	display: flex;
+}
+
+#image2 {
+	background-image: url("../images/img-story-2.png");
+	min-height: 300px;
+	display: flex;
+}
+
+/*MAIN BODY CONTAINERS*/
 .container {
 	display: flex;
 	border: 2px solid black;
@@ -69,7 +102,6 @@
 	flex-direction: column;
 }
 
-.article {
-	display: block;
-	border: 2px solid blue;
-}
+.articleblock {
+		display:block;	
+}		
