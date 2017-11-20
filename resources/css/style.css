@@ -46,8 +46,8 @@
 }
 
 /*CONTENT*/
-.article {
-	display: block;
+.article p {
+	display: flex;
 	border: 2px solid blue;
 	font-family: Georgia;
 	font-size: 17px;
@@ -70,12 +70,14 @@
 
 #image2 {
 	background-image: url("../images/img-story-2.png");
+	background-repeat: no-repeat;
 	min-height: 300px;
 	display: flex;
 }
 
 #image3 {
 	background-image: url("../images/img-story-3.png");
+	background-repeat: no-repeat;
 	min-height: 300px;
 	display: flex;
 }
@@ -103,7 +105,8 @@
 	display: flex;
 	width: 630px;
 	border: 2px solid black;
-	flex-direction: column;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 .column.medium {
@@ -121,5 +124,15 @@
 }
 
 .articleblock {
-		display:block;	
+	display:block;	
 }		
+
+.footer {
+	display: flex;
+	align-content: center;
+	background-color: MediumAquamarine;
+	margin: auto;
+	font-family: verdana;
+	font-size: 12px;
+	min-height: 350px;
+}
